@@ -6,14 +6,13 @@
 nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 programs.nix-ld.enable = true;
-
+```
+- Optional dependencies :
+```
 environment.systemPackages = with pkgs; [
 hwdata
 ];
 ```
-  
-
-
 - Trying without install with `shell`:
 ```
 nix shell github:Sbinator-hub/haxefetch-nix
