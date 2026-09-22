@@ -14,7 +14,7 @@
           version = "git";
           src = pkgs.fetchurl {
             url = "https://raw.githubusercontent.com/Sbinator-hub/Haxefetch/main/binary/haxefetch";
-            hash = "sha256-1ZffyFhc8alB0HbfxxTLD5fbtLpdisCyEd8K0yAAiWI=";
+            hash = "sha256-D41lrIvjtA0VXOzPa/k9RVw7iNmfIvBHzpJ8jXm+Bo4=";
           };
           dontUnpack = true;
           dontBuild = true;
